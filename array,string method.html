@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    //1.
+    let text = "String"
+    let textresult = text.charAt(2)
+    // console.log(textresult)
+
+    //2.
+    let text1 = "Hello"
+    let text2 = "World!"
+    let result = text1.concat(" ", text2)
+    // console.log(result)
+
+    //3.
+    let text3 = "I love Cats."
+    let result1 = text3.replace("Cats", "Dogs")
+    // console.log(result1)
+
+    //4.
+    let text4 = "Apple ,Banana ,Guava, Orange"
+    let result2 = text4.split()
+    // console.log(result2)
+
+    //5.
+    let text5 = "JavaScript"
+    let result3 = text5.substr(4, 10)
+    // console.log(result3)
+
+    //6.
+    let text6 = " I am learning Javascript"
+    let result4 = text6.substring(14, 19)
+    // console.log(result4)
+
+    //7.
+    let text7 = "Frontened Developer"
+    let result5 = text7.slice(0, 9)
+    // console.log(result5)
+
+    //8.
+    let text8 = "HELLO WORLD"
+    let result6 = text8.toLowerCase()
+    // console.log(result6)
+
+    //9.
+    let text9 = "good morning"
+    let result7 = text9.toUpperCase()
+    // console.log(result7)
+
+    //10.
+    let text10 = "  Hello World   "
+    let result8 = text10.trim()
+    // console.log(text10)
+    // console.log(result8)
+
+    //11.
+    let text11 = "JavaScript"
+    let result9 = text11.includes("Script")
+    // console.log(result9)
+
+    //12.
+    let text12 = "Hello world, welcome to JavaScript"
+    let result10 = text12.search("world")
+    // console.log(result10)
+
+    //13.
+    let text13 = ['apple', 'banana'];
+    let text14 = ['cherry', 'mango'];
+    let result11 = text13.concat(text14)
+    // console.log(result11)
+
+    //14.
+    let text15 = ['red', 'blue', 'green', 'yellow']
+    let result12 = text15.indexOf("blue")
+    // console.log(result12)
+
+    //15.
+    let text16 = [5, 8, 12, 19]
+    function checkage() {
+        let returntext16 = text16.find(text16 => text16 > 10)
+        // console.log(returntext16)
+    }
+    //16.
+    checkage()
+    let text17 = [7, 14, 28, 36]
+    function checkindex() {
+        let result = text17.findIndex(text => text > 20)
+        // console.log(result)
+    }
+    checkindex()
+    //.17
+    let text18 = [1, 2, 3, 4]
+    let result17 = text18.forEach((arr) => {
+        //    console.log(`${arr}`)
+    })
+    //18.
+    const numbers = [2, 4, 6, 8];
+    const result19 = numbers.map(num => num * 2);
+    // console.log(result19);
+    //19.
+    let text19 = [5, 12, 8, 9, 13]
+    let result20 = text19.filter(text19 => text19 < 10)
+    //    console.log(result20)
+
+    //20.
+    let text21 = ['dog', 'cat', 'fish']
+    let result21 = text21.includes("cat")
+    // console.log(result21)
+    //21
+    let text22 = ["apple", "Banana"]
+    let newresult = text22.push("Orange", "Grapes")
+    // console.log(newresult)
+    // console.log(text22)
+
+    //22.
+    let text23 = ['apple', 'banana']
+    let newtext = text23.unshift("Pear")
+    // console.log(newtext)
+    // console.log(text23)
+
+    //23.
+    let text24 = ['car', 'bike', 'bus']
+    let newtext1 = text24.pop("bus")
+    // console.log(newtext1)
+    // console.log(text24)
+
+    //24.
+    let text25 = [12, 45, 3, 25, 9]
+    let newtext2 = text25.sort()
+    // console.log(newtext2)
+    //25.
+    let text26 = ['red', 'blue', 'green', 'yellow']
+
+    let newtext3 = text26.splice(2, 4)
+    // console.log(newtext3)
+    //26.
+    let text27 = "The cat sat on the cat";
+    let newtext4 = text27.replace(/cat/g, "dog")
+    //    console.log(newtext4)
+
+    //27.
+    let text28 = "Hello"
+    let newtext5 = text28.repeat("3")
+    console.log(newtext5)
+</script>
+
+</html>
